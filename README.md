@@ -1,16 +1,16 @@
-# 🧮 Calculadora em Python
+# 🗂️ Calculadora de Orçamentos por Pontos de Função
 
-Uma calculadora moderna e funcional desenvolvida em Python com interface gráfica usando Tkinter.
+Uma aplicação para calcular orçamentos de projetos de software usando a metodologia de Pontos de Função (Function Points).
 
 
 ## ✨ Funcionalidades
 
-- ➕ **Operações básicas**: Adição, subtração, multiplicação e divisão
-- 🔢 **Suporte a números decimais**
-- 🧹 **Botão de limpar (C)**
-- 📊 **Operação de porcentagem (%)**
-- 🎨 **Interface moderna** com tema escuro
-- ⌨️ **Layout intuitivo** similar a calculadoras reais
+- ➕ **Cálculo automático** de Pontos de Função
+- 📁 **Exportação para PDF com layout profissional**
+- 🧹 **Botão de limpar**
+- 📊 **Cálculo de horas e orçamento em tempo real**
+- 🎨 **Interface moderna** 
+- ⌨️ **Matriz de complexidade integrada**
 
 - ## 🛠️ Tecnologias
 
