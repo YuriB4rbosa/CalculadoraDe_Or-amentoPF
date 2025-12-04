@@ -16,7 +16,7 @@ from reportlab.pdfbase.ttfonts import TTFont
 class CalculadoraOrcamentoPF: 
     def __init__(self):
         self.janela = tk.Tk()
-        self.janela.title("Calculadora de rçamento por Pontos de Função")
+        self.janela.title("Calculadora de orçamento por Pontos de Função")
         self.janela.geometry("900x700")
         self.janela.configure(bg="#f0f0f0")
         
