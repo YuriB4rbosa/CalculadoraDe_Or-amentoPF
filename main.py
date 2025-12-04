@@ -17,7 +17,7 @@ class CalculadoraOrcamentoPF:
     def __init__(self):
         self.janela = tk.Tk()
         self.janela.title("Calculadora de orçamento por Pontos de Função")
-        self.janela.geometry("900x700")
+        self.janela.geometry("920x700")
         self.janela.configure(bg="#f0f0f0")
         
         # Variáveis
