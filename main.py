@@ -399,14 +399,14 @@ class CalculadoraOrcamentoPF:
                     table_data.append(row)
                 
                 # Criar tabela
-                table = Table(table_data, colWidths=[250, 100, 80, 50])
+                table = Table(table_data, colWidths=[200, 150, 80, 50])
                 table.setStyle(TableStyle([
                     ('BACKGROUND', (0, 0), (-1, 0), colors.HexColor('#ecf0f1')),
                     ('TEXTCOLOR', (0, 0), (-1, 0), colors.HexColor('#2c3e50')),
                     ('ALIGN', (0, 0), (-1, -1), 'LEFT'),
                     ('ALIGN', (3, 0), (3, -1), 'CENTER'),
                     ('FONTNAME', (0, 0), (-1, 0), 'Helvetica-Bold'),
-                    ('FONTSIZE', (0, 0), (-1, 0), 10),
+                    ('FONTSIZE', (0, 0), (-1, 0), 11),
                     ('BOTTOMPADDING', (0, 0), (-1, 0), 12),
                     ('GRID', (0, 0), (-1, -1), 1, colors.grey),
                     ('BACKGROUND', (0, 1), (-1, -1), colors.white),
@@ -416,7 +416,7 @@ class CalculadoraOrcamentoPF:
                 story.append(Spacer(1, 20))
             
             # Resumo do orçamento
-            story.append(Paragraph("<b>RESUMO DO ORÇAMENTO</b>", subtitle_style))
+            story.append(Paragraph("RESUMO DO ORÇAMENTO", subtitle_style))
             story.append(Spacer(1, 10))
             
             # Calcular valores
@@ -438,7 +438,7 @@ class CalculadoraOrcamentoPF:
                 ["Estimativa de Horas (8h por PF)", f"{total_horas}h"],
                 ["Valor por Hora", valor_hora_formatado],
                 ["", ""],
-                ["<b>ORÇAMENTO FINAL</b>", f"<b>{orcamento_formatado}</b>"]
+                ["ORÇAMENTO FINAL", f"<b>{orcamento_formatado}</b>"]
             ]
             
             resumo_table = Table(resumo_data, colWidths=[250, 100])
@@ -473,7 +473,7 @@ class CalculadoraOrcamentoPF:
             story.append(Spacer(1, 20))
             
             # Rodapé
-            story.append(Paragraph("_" * 80, normal_style))
+            story.append(Paragraph("_" * 78, normal_style))
             story.append(Spacer(1, 10))
             story.append(Paragraph("Copyright© - Todos os direitos reservados", 
                                  ParagraphStyle('Footer', parent=styles['Normal'], fontSize=8, 
